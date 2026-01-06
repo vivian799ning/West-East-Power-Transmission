@@ -24,31 +24,32 @@ warnings.filterwarnings('ignore')
 # ============================================================================
 DC_CONFIG = {
     '楚穗直流': {
-        'file_path': 'E:/pwy/work/word_data/云南/chushui_20251223140853.xlsx',
+        'file_path': 'data/chushui_20251223140853.xlsx',
         'column_name': '云南-楚穗直流-西电通道（实际）',
         'color': '#1f77b4'
     },
     '昆柳龙直流': {
-        'file_path': 'E:/pwy/work/word_data/云南/kunliulong_20251223140957.xlsx',
+        'file_path': 'data/kunliulong_20251223140957.xlsx',
         'column_name': '云南-昆柳龙直流-西电通道（实际）',
         'color': '#ff7f0e'
     },
     '牛从直流': {
-        'file_path': 'E:/pwy/work/word_data/云南/niucong_20251223141142.xlsx',
+        'file_path': 'data/niucong_20251223141142.xlsx',
         'column_name': '云南-牛从直流-西电通道（实际）',
         'color': '#2ca02c'
     },
     '新东直流': {
-        'file_path': 'E:/pwy/work/word_data/云南/xinodng_20251223141052.xlsx',
+        'file_path': 'data/xinodng_20251223141052.xlsx',
         'column_name': '云南-新东直流-西电通道（实际）',
         'color': '#d62728'
     },
     '普侨直流': {
-        'file_path': 'E:/pwy/work/word_data/云南/puqiao_20251223141219.xlsx',
+        'file_path': 'data/puqiao_20251223141219.xlsx',
         'column_name': '云南-普侨直流-西电通道（实际）',
         'color': '#9467bd'
     }
 }
+
 
 # ============================================================================
 # 页面配置 - 必须是第一个Streamlit命令
@@ -906,4 +907,5 @@ def main():
 # 运行应用
 # ============================================================================
 if __name__ == "__main__":
+
     main()
